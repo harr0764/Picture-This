@@ -37,4 +37,16 @@ img {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
+  img {
+    width: 800px; 
+    height: 740px; 
+    object-fit: cover;
+    }
+  }
+
+@media (max-width: 960px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
